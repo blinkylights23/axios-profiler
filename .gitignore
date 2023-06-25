@@ -1,0 +1,25 @@
+# Env
+.env
+.envrc
+
+# Editors
+.DS_Store
+*~
+.idea
+.vscode
+[._]*.sw[a-p]
+tags
+
+# dist/
+build/
+dist/
+
+# Node
+node_modules
+npm-debug.log*
+.npm
+.node_repl_history
+coverage
+
+# Serverless
+.serverless

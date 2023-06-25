@@ -1,0 +1,10 @@
+{
+  "presets": [["@babel/preset-env", { "modules": "cjs" }]],
+  "targets": {
+    "node": "current"
+  },
+  "plugins": [
+    ["replace-import-extension", { "extMapping": { ".js": ".cjs" } }],
+    "@babel/plugin-syntax-import-assertions"
+  ]
+}
